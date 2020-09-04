@@ -884,3 +884,12 @@ a:active {
   padding-top:3rem !important;
   left: 15% !important;
 }
+
+.navbar-nav-regular{
+  display:flex;
+  text-transform: uppercase;
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+  list-style: none;
+  color: #fff !important;
+}
