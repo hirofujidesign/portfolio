@@ -900,3 +900,11 @@ a:active {
   font-weight: 400;
   
 }
+
+.nav-link{
+  color:white;
+}
+
+.nav-link.scrolled{
+  color:black;
+}

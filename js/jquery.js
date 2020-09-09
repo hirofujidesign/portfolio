@@ -169,3 +169,4 @@ $(document).ready(function () {
 //     $('.product-hero-image.middle').hide();
 //     $('.product-hero-image.left').hide();
 //   }
+
