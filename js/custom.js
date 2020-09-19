@@ -167,32 +167,30 @@
 
 
 	// Page Nav
-	// var clickMenu = function() {
+	var clickMenu = function() {
 
-	// 	$('.navbar-nav a:not([class="external"])').click(function(event){
+		$('.navbar-nav-2 :not([class="external"])').click(function(event){
 
-	// 		var section = $(this).data('nav-section'),
-	// 			navbar = $('.navbar-nav');
-	// 			if (isMobile.any()) {
-	// 				$('.navbar-toggle').click();
-	// 			}
-	// 			if ( $('[data-section="' + section + '"]').length ) {
-	// 		    	$('html, body').animate({
-	// 		        	scrollTop: $('[data-section="' + section + '"]').offset().top
-	// 		    	}, 500, 'easeInOutExpo');
-	// 		   }
+			var section = $(this).data('nav-section'),
+				navbar = $('.navbar-nav-2');
+				if (isMobile.any()) {
+					$('.navbar-toggle').click();
+				}
+				if ( $('[data-section="' + section + '"]').length ) {
+			    	$('html, body').animate({
+			        	scrollTop: $('[data-section="' + section + '"]').offset().top
+			    	}, 500, 'easeInOutExpo');
+			   }
 
-	// 	    event.preventDefault();
-	// 	    return false;
-	// 	});
-
-
-	// };
+		    event.preventDefault();
+		    return false;
+		});
+	};
 
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
 
-		var $el = $('.navbar-nav');
+		var $el = $('.navbar-nav-2');
 		$el.find('li').removeClass('active');
 		$el.each(function(){
 			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');
