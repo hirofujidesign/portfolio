@@ -15,10 +15,10 @@ $(document).ready(function () {
         if (mouseY < imageTop || mouseY > imageBottom) {
             return;
         }
-        console.log("mouseY")
-        console.log(mouseY);
-        console.log("mouseX")
-        console.log(mouseX);
+        // console.log("mouseY")
+        // console.log(mouseY);
+        // console.log("mouseX")
+        // console.log(mouseX);
         elementVisible.hide();
 
         //   LEFT

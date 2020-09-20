@@ -47,7 +47,7 @@
 		});
 
 		$('body').on('activate.bs.scrollspy', function () {
-		  console.log('nice');
+		  console.log('test');
 		})
 	};
 	
@@ -123,6 +123,7 @@
 
 			if ( st > 200 ) {
 				navbar.addClass('scrolled');
+				nav-item.addClass('scrolled');
 			} else {
 				navbar.removeClass('scrolled awake');
 			}
@@ -195,7 +196,8 @@
 		$el.each(function(){
 			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');
 		});
-
+		console.log(this);
+		
 	};
 
 	var navigationSection = function() {
