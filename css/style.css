@@ -879,13 +879,13 @@ a:active {
   display: block;
 }
 
-.hero-copy{
-  padding-top:3rem !important;
+.hero-copy {
+  padding-top: 3rem !important;
   left: 15% !important;
 }
 
-.navbar-nav-regular{
-  display:flex;
+.navbar-nav-regular {
+  display: flex;
   text-transform: uppercase;
   padding: 0 0 0 0 !important;
   margin: 0 0 0 0 !important;
@@ -893,20 +893,20 @@ a:active {
   color: #fff !important;
 }
 
-.nav-item{
+.nav-item {
   letter-spacing: .2rem;
   color: white !important;
   font-size: 14px;
   font-weight: 400;
-  
+
 }
 
-.nav-link{
-  color:white;
+.nav-link {
+  color: white;
 }
 
-.nav-link.scrolled{
-  color:black;
+.nav-link.scrolled {
+  color: black;
 }
 
 .parent-nav-link-padding,
@@ -1050,6 +1050,6 @@ a:active {
   color: #BC002D !important;
 }
 
-#section-contact{
-  padding-top:80px;
+#section-contact {
+  padding-top: 80px;
 }
