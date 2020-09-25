@@ -862,6 +862,10 @@ a:active {
 }
 
 
+
+
+
+
 /* My Code Edits */
 
 .social-item {
@@ -1052,4 +1056,8 @@ a:active {
 
 #section-contact {
   padding-top: 80px;
+}
+
+#section-about {
+  padding-top:80px;
 }
