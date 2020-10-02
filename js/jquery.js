@@ -66,8 +66,7 @@ $(document).ready(function () {
         else if (mouseX >= 1340 && mouseY > 530) {
             $('.product-hero-image').hide();
             $('.product-hero-image.bottom-right').show();
-        } 
-        else {
+        } else {
             $('.product-hero-image').hide();
             $('.product-hero-image.middle').show();
         }
@@ -75,5 +74,34 @@ $(document).ready(function () {
 
     $('.product-hero-image').css('z-index', '0');
 
+    // external js: isotope.pkgd.js
+
+    $('.grid').isotope({
+        itemSelector: '.grid-item',
+        masonry: {
+            columnWidth: 100
+        }
+    });
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
 
 });
