@@ -791,6 +791,9 @@ a:active {
 
 .site-footer {
   padding: 3em 0;
+  position: absolute;
+  width: 100%;
+  display:block;
 }
 
 .site-footer p:last-child {
@@ -1251,3 +1254,6 @@ a:active {
 }
 
 
+#section-portfolio{
+  height:1009px;
+}
