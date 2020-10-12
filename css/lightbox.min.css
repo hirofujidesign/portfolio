@@ -18,7 +18,7 @@ body.lb-disable-scrolling {
   background-color: #000;
   filter: alpha(Opacity=80);
   opacity: .8;
-  display: none
+  display: none;
 }
 
 .lightbox {
@@ -47,7 +47,7 @@ body.lb-disable-scrolling {
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
-  background-color: #fff
+  background-color: #fff;
 }
 
 .lb-outerContainer:after {
@@ -88,11 +88,15 @@ body.lb-disable-scrolling {
   background-image: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
 }
 
-.lb-next,
+.lb-next {
+  height:100%;
+  cursor: e-resize;
+  display: block;
+}
 .lb-prev {
   height: 100%;
-  cursor: pointer;
-  display: block
+  cursor: w-resize;
+  display: block;
 }
 
 .lb-nav a.lb-prev {
