@@ -1256,3 +1256,9 @@ a:active {
 #section-portfolio{
   height:1009px;
 }
+
+@media (max-width: 990px) {
+  #section-portfolio{
+    height: 3400px;
+  }
+}
